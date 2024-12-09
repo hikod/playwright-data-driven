@@ -42,7 +42,6 @@ playwright-data-driven/
 ├── .env               # Environment variables
 ├── playwright.config.ts
 └── README.md
-
 ```
 
 # Configuration
@@ -126,5 +125,5 @@ Common issues and solutions:
     - Verify credentials in .env file
     - Check if login page is accessible
 
-License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
