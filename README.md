@@ -24,6 +24,7 @@ npx playwright install
 
 # Project Structure
 
+```
 playwright-data-driven/
 ├── src/
 │   ├── pages/           # Page Object Models
@@ -41,6 +42,8 @@ playwright-data-driven/
 ├── .env               # Environment variables
 ├── playwright.config.ts
 └── README.md
+
+```
 
 # Configuration
 
