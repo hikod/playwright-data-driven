@@ -1,0 +1,15 @@
+{
+    "apiTests": [
+      {
+        "name": "Create new user",
+        "endpoint": "/api/users",
+        "method": "POST",
+        "payload": {
+          "username": "newuser",
+          "password": ""
+        },
+        "expectedStatus": 201,
+        "expectedFields": ["id", "username", "password"]
+      }
+    ]
+  }

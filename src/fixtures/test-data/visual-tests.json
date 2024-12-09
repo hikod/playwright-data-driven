@@ -1,0 +1,14 @@
+{
+    "visualTests": [
+      {
+        "name": "Homepage layout verification",
+        "url": "/",
+        "screenshotName": "homepage",
+        "elements": [
+          { "selector": "header", "name": "Header" },
+          { "selector": "main", "name": "Main Content" },
+          { "selector": "footer", "name": "Footer" }
+        ]
+      }
+    ]
+  }

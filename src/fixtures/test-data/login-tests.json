@@ -1,0 +1,52 @@
+{
+    "loginTests": [
+      {
+        "name": "Successful login with valid credentials",
+        "expectedUrl": "/app",
+        "expectedElement": ".dashboard-container"
+      },
+      {
+        "name": "Failed login with invalid password",
+        "username": "admin",
+        "password": "wrongpassword",
+        "expectedError": "Invalid username or password"
+      }
+    ],
+    "tasks": {
+        "userAuthentication": {
+          "name": "Implement user authentication",
+          "tags": ["Feature", "High Priority"],
+          "expectedColumn": "To Do"
+        },
+        "navigationBug": {
+            "name": "Fix navigation bug",
+            "tags": ["Bug"],
+            "expectedColumn": "To Do"
+        },
+        "systemUpdate": {
+            "name": "Design system updates",
+            "tags": ["Design"],
+            "expectedColumn": "In Progress"
+        },
+        "pushNotification": {
+          "name": "Push notification system",
+          "tags": ["Feature"],
+          "expectedColumn": "To Do"
+        },
+        "offlineMode": {
+          "name": "Offline mode",
+          "tags": ["Feature", "High Priority"],
+          "expectedColumn": "In Progress"
+        },
+        "iconDesign": {
+          "name": "App icon design",
+          "tags": ["Design"],
+          "expectedColumn": "Done"
+        }
+      },
+      "columns": {
+        "todo": "To Do",
+        "inProgress": "In Progress",
+        "done": "Done"
+      }
+  }
